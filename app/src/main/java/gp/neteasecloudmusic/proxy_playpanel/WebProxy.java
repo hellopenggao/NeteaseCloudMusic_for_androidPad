@@ -1,4 +1,4 @@
-package gp.neteasecloudmusic.proxy;
+package gp.neteasecloudmusic.proxy_playpanel;
 
 import android.webkit.WebView;
 

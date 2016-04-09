@@ -1,22 +1,25 @@
 package gp.neteasecloudmusic.test;
 
 import android.databinding.DataBindingUtil;
+import android.databinding.tool.Binding;
+import android.databinding.tool.util.StringUtils;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
+import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import gp.neteasecloudmusic.R;
 import gp.neteasecloudmusic.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
-    ActivityMainBinding binding;
-
+     ActivityMainBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
